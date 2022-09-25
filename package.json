@@ -54,6 +54,12 @@
     "extract:vue": "npx api-extractor run -c ./api-extractor.vue.json && cp -f ./vue.d.ts ./vue.es.d.ts",
     "fix:types": "eslint . --ext .d.ts --fix"
   },
+  "peerDependencies": {
+    "@types/react": "^16.8 || ^17.0 || ^18.0",
+    "@types/react-dom": "^16.8 || ^17.0 || ^18.0",
+    "react": "^16.8 || ^17.0 || ^18.0",
+    "react-dom": "^16.8 || ^17.0 || ^18.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/plugin-transform-modules-commonjs": "^7.17.9",
