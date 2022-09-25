@@ -5,11 +5,11 @@ dist
 .build
 .yarn-lock
 
-/*.js
-/*.css
-/*.scss
-/*.map
-/*.d.ts
+# /*.js
+# /*.css
+# /*.scss
+# /*.map
+# /*.d.ts
 
 playground/build/*
 types
